@@ -155,7 +155,7 @@ for t=1:T
 %         hold on
 %         scatter(t,ForRatio,'g*')
 %         scatter(t,BRatio,'k*')
-%         axis([0 TMAX 0 100])
+%         axis([0 T 0 100])
 %         legend('Fire','Forest','Bare Ground')
 %         xlabel('Time (generations)')
 %         ylabel('% of Area')
